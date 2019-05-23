@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "vskut\\laravel5-model-searchable\\": "src/"
+            "vskut\\laravel5ModelSearchable\\": "src/"
         }
     }
 }
