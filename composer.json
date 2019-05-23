@@ -1,0 +1,22 @@
+{
+    "name": "vskut/laravel5-model-searchable",
+    "description": "Searchable scope trait for models in laravel 5",
+    "keywords": ["laravel", "searchable"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Markus Lind",
+            "email": "me@vskut.ru",
+            "homepage": "https://github.com/vskut/laravel5-model-searchable",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "vskut\\laravel5-model-searchable\\": "src"
+        }
+    }
+}
