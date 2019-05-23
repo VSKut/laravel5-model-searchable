@@ -29,7 +29,7 @@ class UserController
 
     public function index()
     {
-        $user = User::searchable(request()->get('search'))
+        $user = User::searchable(request()->get('search'), ['id', 'email', 'username'])
             ->get();
 
         return view('user.index', compact('user'));
